@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+		/* Styling the body element
+		like body color and margin */
+
+		body {
+			background-color: #00FA9A;
+			margin: 20%;
+		}
+
+		/* Styling the Title and giving
+		shadow to the title */
+		#title {
+			text-align: center;
+			text-shadow: 5px 5px 10px white;
+			font-size: 7vh;
+		}
+
+		/* Setting width and display
+		type of image */
+		img {
+			display: inline-block;
+			width: 100%;
+		}
+
+		/* Setting font color and font
+		size of the image-caption */
+		#caption {
+			font-size: 17px;
+			font-family: Gill Sans;
+			color: black;
+		}
+
+		/* Styling the content of the page like-
+		padding, font-size, font color etc.*/
+		div#tribute-data {
+			background-color: rgb(46, 139, 87, 0.25);
+			box-shadow: 20px 20px 20px #98FB98;
+			font-family: Georgia;
+			padding: 25px 25px;
+			margin: 11px;
+			margin-top: 50px;
+		}
+
+		/* Styling the title of the content */
+		h1.title-APJ {
+			font-size: 35px;
+			color: white;
+			text-align: center;
+			text-shadow: 5px 5px 10px black;
+		}
+
+		/* Styling the link provided at the end */
+		#tribute-link {
+			text-decoration: none;
+			color: black;
+		}
+	</style>
+</head>
+
+<body>
+	<main id="main">
+
+		<!-- Title of the page -->
+		<h1 id="title">
+			Narendra Modi
+		</h1>
+
+		<div id="img">
+
+			<!--Image of the Tribute Person-->
+            <img src="data:image/jpeg;base64,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"		
+            id="image"
+				alt="Error Loading Image">
+			<small id="caption">
+				"Narendra Modi is an Indian politician serving as the Prime Minister of India since May 2014.
+                 He is known for his dynamic leadership, economic reforms, and initiatives aimed at modernizing India's infrastructure 
+                 and improving living standards. 
+                 Modi's policies have often sparked debate and controversy, but he remains a significant figure in Indian politics, 
+                 recognized for his vision of a prosperous and empowered India."
+			</small>
+		</div>
+
+		<div id="tribute-data">
+
+			<!--Achievements and other
+				details of the person-->
+			<h1 class="title-APJ">
+				About the Legend
+			</h1>
+			<p>
+				☛Narendra Damodardas Modi; <b>(born 17 September 1950)</b>
+                 is an Indian politician who has served as the 
+                 <b>14th prime minister of India since May 2014</b>. 
+                 Modi was the chief minister of Gujarat from 2001 to 2014 
+                 and is the Member of Parliament (MP) for Varanasi..<br><br>
+				☛ He is a member of the <b>Bharatiya Janata Party (BJP) 
+                and of the Rashtriya Swayamsevak Sangh (RSS)</b>,
+                 a right wing Hindu nationalist paramilitary volunteer organisation.
+                  He is the longest-serving prime minister from 
+                  outside the Indian National Congress.<br><br>
+				☛ Modi was born and raised in <b>Vadnagar in northeastern Gujarat</b>, 
+                where he completed his secondary education. 
+                <b>He was introduced to the RSS at the age of eight</b>.
+                 His account of helping his father sell tea at the 
+                 Vadnagar railway station has not been reliably corroborated.
+                 At age 18, he was married to <b>Jashodaben Modi</b>, whom he abandoned soon after,
+                 only publicly acknowledging her four decades later when legally required to do so.
+                 Modi became a full-time worker for the RSS in Gujarat in 1971. 
+                The RSS assigned him to the BJP in 1985 and he held several positions 
+                within the party hierarchy until 2001,
+                 rising to the rank of general secretary.
+                <br><br>
+				☛ In <b>2001, Modi was appointed Chief Minister of Gujarat</b> 
+                and elected to the legislative assembly soon after.
+                 His administration is considered complicit in the 2002 Gujarat riots,
+                 and has been criticised for its management of the crisis.
+                 A little over <b>1,000 people</b> were killed, according to official records,
+                 three-quarters of whom were Muslim; independent sources estimated 2,000 deaths, mostly Muslim. 
+                 A Special Investigation Team appointed by the Supreme Court of India in 2012
+                 found no evidence to initiate prosecution proceedings against him. 
+                While his policies as chief minister, which were credited for encouraging economic growth, were praised,
+                 Modi's administration was criticised for failing to significantly improve health, poverty and education indices in the state.
+                
+				<br><br> ☛ In the <b>2014 Indian general election,
+                Modi led the BJP to a parliamentary majority</b>, the first for a party since 1984.
+                His administration increased direct foreign investment, and it reduced
+                spending on healthcare, education, and social-welfare programmes.
+                Modi began a high-profile sanitation campaign, controversially initiated the
+                2016 demonetisation of high-denomination banknotes and introduced the
+                Goods and Services Tax, and weakened or abolished environmental and labour laws.
+               <strong>
+					“Modi-ji.”</strong>
+				<br><br> ☛ Modi's administration launched the <b>2019 Balakot airstrike
+                against an alleged terrorist training camp in Pakistan</b>.
+                The airstrike failed, and the deaths of six Indian personnel
+                to friendly fire was later revealed: but the action had nationalist appeal. 
+               Modi's party won the 2019 general election which followed. 
+               In its second term, his administration revoked the special status of Jammu and Kashmir,
+                an Indian-administered portion of the disputed Kashmir region, 
+               and introduced the Citizenship Amendment Act, prompting widespread protests,
+                and spurring the 2020 Delhi riots in which Muslims were brutalised and killed by Hindu mobs, 
+               sometimes with the complicity of police forces controlled by the Modi administration. 
+               Three controversial farm laws led to sit-ins by farmers across the country, eventually causing their formal repeal.               
+				<br><br> ☛  Modi oversaw <b>India's response to the COVID-19 pandemic, 
+                during which 4.7 million out of 1.4 billion Indians died</b>, 
+                according to the World Health Organization's estimates.
+				<br><br> ☛ Under Modi's tenure, India has experienced <b>democratic backsliding, 
+                or the weakening of democratic institutions, individual rights, 
+                and freedom of expression</b>. As prime minister, 
+                he has received consistently high approval ratings                
+				<br><br> ☛ Modi has been described as <b>engineering a political realignment towards
+                right-wing politics</b>. He remains a controversial figure domestically and internationally, 
+               over his Hindu nationalist beliefs and handling of the Gujarat riots, 
+               which have been cited as evidence of a majoritarian and exclusionary social agenda.               
+				<br><br> ☛ As chief minister, Modi favoured privatisation and small government,
+                which was at odds with the philosophy of the RSS, 
+               which is usually described as <b>anti-privatisation and anti-globalisation</b>.
+                Modi's policies during his second term have been credited with reducing corruption in Gujarat. 
+               He established financial and technology parks in the state and during the 2007 Vibrant Gujarat summit,
+                real-estate investment deals worth ₹6.6 trillion 
+                <b>(equivalent to ₹20 trillion or US$250 billion in 2023)</b> were signed.
+				<br><br> ☛ HINDUTVA:
+                The activities of a number of <b>Hindu nationalist organisations increased
+                in scope after Modi's appointment as prime minister</b>, sometimes with the government's support.
+                These activities included a Hindu religious conversion programme, 
+               a campaign against the supposed Islamic practice of "Love Jihad" and attempts to celebrate Nathuram Godse,
+                the assassin of Mahatma Gandhi, by members of the right-wing organisation Hindu Mahasabha. 
+               Government officials, including the Home Minister, defended the conversion programmes.               
+				<br><br> ☛ ECONOMY:
+                The Modi government's economic policies focused on <b>privatisation and
+                liberalisation of the economy</b>,
+                and were based on a neoliberal framework. 
+               Modi liberalised India's foreign direct investment policies, 
+               allowing more foreign investment in several industries, including defence and railways.
+               Other proposed reforms included making the forming of unions more difficult for workers,
+                and making recruitment and dismissal easier for employers; 
+               some of these proposals were abandoned after protests. 
+               The reforms drew strong opposition from unions: on <b>2 September 2015</b>, 
+               eleven of the country's largest unions—including one affiliated with the BJP—struck.
+                <b>The Bharatiya Mazdoor Sangh (Indian Workers Union), a constituent of the Sangh Parivar (Family of the RSS),
+                stated the underlying motivation of labour reforms favoured corporations over labourers</b>.               
+				<br><br> ☛ FORIEGN POLICY:
+                Foreign policy played a <b>small role in Modi's election campaign and 
+                did not feature prominently in the BJP's election manifesto</b>. Modi's foreign policy, 
+                similarly to that of the preceding Congress government, focused on improving economic ties,
+                security and regional relations.] Modi continued Manmohan Singh's policy of "multi-alignment”. 
+                The Modi administration tried to attract foreign investment in the Indian economy from several sources,
+                especially East Asia, with the use of slogans such as <b>"Make in India" and "Digital India"</b>. 
+                The government also tried to improve relations with <b>Islamic nations in the Middle East, 
+                such as Bahrain, Iran, Saudi Arabia and the United Arab Emirates, as well as with Israel</b>. 
+				<br><br> ☛ G20 PRESIDENCY:
+                India hosted the <b>2023 G20 New Delhi summit, 
+                during which the African Union joined the G20 as a permanent member</b>. 
+                In an interview on <b>26 August 2023, Prime Minister Modi expressed optimism about the
+                 G20 countries' evolving agenda under India's presidency, shifting toward a 
+                human-centric development approach that aligns with the concerns of the Global South</b>,
+                including addressing climate change, debt restructuring through the 
+                G20's Common Framework for Debt, and a strategy for regulation of global cryptocurrencies.      
+				<br><br> ☛ SECURITY:
+                India's nominal military spending steadily increased under Modi. 
+                During Modi's tenure, the military budget declined, both as a fraction of GDP 
+                and when adjusted for inflation. A substantial portion of the 
+                military budget was devoted to personnel costs commentators wrote the
+                 budget was constraining Indian military modernisation.                
+				<br><br> ☛ AWARDS AND RECOGNIZATION:
+                In <b>March 2012 and June 2014, Narendra Modi appeared on the cover of the Asian edition of Time Magazine</b>,
+                becoming one of the few Indian politicians to have done so. In <b>2014, CNN-News18</b> (formally CNN-IBN)
+                news network awarded Modi Indian of the Year. In <b>June 2015, Modi was featured on the cover of Time Magazine</b>. 
+               In <b>2014, 2015, 2017, 2020 and 2021, he was named one of Time magazine's 100 Most Influential People in the World</b>. 
+               Forbes Magazine ranked him the 15th Most Powerful Person in the World in 2014 and the 
+               9th Most Powerful Person in the World in 2015, 2016 and 2018. In 2015, Modi was ranked the
+                13th Most Influential Person in the World by Bloomberg Markets Magazine. In 2021,
+                Time called Modi the third "pivotal leader" of independent India after Jawaharlal Nehru and Indira Gandhi, 
+               who "dominated the country's politics like no one since them". Modi was ranked fifth on Fortune Magazine's
+                first annual list of the "World's Greatest Leaders" in 2015. 
+               In 2017, Gallup International Association (GIA) conducted a poll and ranked Modi third-top leader of the world. 
+               In 2016, a wax statue of Modi was unveiled at Madame Tussauds wax museum in London. 
+               .
+				<br><br> ☛ Modi used to maintain a close and publicised relationship with his mother, Hiraben
+				<br><br><br>
+			</p>
+
+		</div>
+		<br>
+		For more information,
+		check out
+		<a id="tribute-link" href="#">
+			<b>PM Narendra Modi</b> 
+		</a>on Wikipedia. [
+			<small>Developed by @<a href="#">
+					Lalitha Madhuri.</a>
+		</small>]
+	</main>
+</body>
+
+</html>
